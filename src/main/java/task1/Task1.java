@@ -1,10 +1,11 @@
+package task1;
 import java.util.List;
 
 import static java.lang.Math.abs;
 
 class Task1 {
 
-    public long findTotalDistance(List<Long> list1, List<Long> list2) {
+    static long findTotalDistance(List<Long> list1, List<Long> list2) {
 
         record Pair(long a, long b) {};
         var sorted2 = list2.stream().sorted().iterator();

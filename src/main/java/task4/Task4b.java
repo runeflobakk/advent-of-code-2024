@@ -1,3 +1,4 @@
+package task4;
 import java.util.stream.Stream;
 
 public class Task4b {
