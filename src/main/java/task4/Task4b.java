@@ -7,7 +7,7 @@ public class Task4b {
     char A = 'A';
     char S = 'S';
 
-    char[] xmas = new char[]{M, A, S};
+    char[] xmas = {M, A, S};
 
     public long xXmasInArr(char[][] arr) {
         long totalXMAS = 0;
